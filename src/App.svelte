@@ -20,11 +20,8 @@
   </p>
 </main>
 
-<style>
-    a {
-        @apply text-blue-700;
-    }
-    a:hover {
-        @apply underline;
-    }
+<style global lang="postcss">
+  @tailwind utilities;
+  @tailwind components;
+  @tailwind base;
 </style>
